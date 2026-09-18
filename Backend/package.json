@@ -1,15 +1,25 @@
 {
+<<<<<<< HEAD
   "name": "backend",
+=======
+  "name": "Backend",
+>>>>>>> ft-amucia-2025337
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "tsx src/api/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts"
+>>>>>>> ft-amucia-2025337
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
@@ -21,15 +31,34 @@
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
+=======
+  "type": "module",
+  "devDependencies": {
+    "@types/bcryptjs": "^3.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+>>>>>>> ft-amucia-2025337
     "@types/node": "^26.2.0",
     "@types/pg": "^8.23.1",
     "tsx": "^4.23.12",
     "typescript": "^7.0.2"
   },
   "dependencies": {
+<<<<<<< HEAD
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "pg": "^8.23.0"
   }
 }
+=======
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.0"
+  }
+}
+>>>>>>> ft-amucia-2025337

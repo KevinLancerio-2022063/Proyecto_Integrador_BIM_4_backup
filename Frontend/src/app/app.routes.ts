@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Routes } from "@angular/router";
 import { LayoutComponent } from "./features/logistica/components/layout/layout.component";
 
@@ -20,4 +21,21 @@ export const routes: Routes = [
     redirectTo: "/logistica",
     pathMatch: "full"
   }
+=======
+// src/app/app.routes.ts
+import { Routes } from '@angular/router';
+import { coreRoutes } from './features/core/core.routes';
+
+export const routes: Routes = [
+    {
+        path: '',
+        redirectTo: 'usuarios',
+        pathMatch: 'full'
+    },
+    ...coreRoutes,
+    {
+        path: '**',
+        redirectTo: 'usuarios'
+    }
+>>>>>>> ft-amucia-2025337
 ];

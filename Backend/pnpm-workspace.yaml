@@ -1,2 +1,6 @@
 allowBuilds:
+<<<<<<< HEAD
   esbuild: true
+=======
+  esbuild: false
+>>>>>>> ft-amucia-2025337

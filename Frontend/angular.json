@@ -3,11 +3,19 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
+<<<<<<< HEAD
     "analytics": "ac2b45c2-50aa-4a73-b32a-852cedfdbe83"
   },
   "newProjectRoot": "projects",
   "projects": {
     "src": {
+=======
+    "analytics": "7fb2aa9e-c559-4cec-b051-55ae899029ce"
+  },
+  "newProjectRoot": "projects",
+  "projects": {
+    "Frontend": {
+>>>>>>> ft-amucia-2025337
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -26,8 +34,11 @@
               }
             ],
             "styles": [
+<<<<<<< HEAD
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+=======
+>>>>>>> ft-amucia-2025337
               "src/styles.css"
             ],
             "server": "src/main.server.ts",
@@ -53,12 +64,32 @@
                   "maximumError": "8kB"
                 }
               ],
+<<<<<<< HEAD
               "outputHashing": "all"
+=======
+              "outputHashing": "all",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.production.ts"
+                }
+              ]
+>>>>>>> ft-amucia-2025337
             },
             "development": {
               "optimization": false,
               "extractLicenses": false,
+<<<<<<< HEAD
               "sourceMap": true
+=======
+              "sourceMap": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.development.ts"
+                }
+              ]
+>>>>>>> ft-amucia-2025337
             }
           },
           "defaultConfiguration": "production"
@@ -67,10 +98,17 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "src:build:production"
             },
             "development": {
               "buildTarget": "src:build:development"
+=======
+              "buildTarget": "Frontend:build:production"
+            },
+            "development": {
+              "buildTarget": "Frontend:build:development"
+>>>>>>> ft-amucia-2025337
             }
           },
           "defaultConfiguration": "development"
@@ -81,4 +119,8 @@
       }
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ft-amucia-2025337
